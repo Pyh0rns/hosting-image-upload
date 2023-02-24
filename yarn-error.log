@@ -1,0 +1,33 @@
+Arguments: 
+  /Users/pyhorns/.nvm/versions/node/v16.13.1/bin/node /Users/pyhorns/.nvm/versions/node/v16.13.1/bin/yarn add @hotwired/stimulus
+
+PATH: 
+  /Users/pyhorns/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/bin:/Users/pyhorns/.rbenv/versions/3.1.2/bin:/usr/local/Cellar/rbenv/1.2.0/libexec:./bin:./node_modules/.bin:/Users/pyhorns/.nvm/versions/node/v16.13.1/bin:/Users/pyhorns/.rbenv/shims:/Users/pyhorns/.rbenv/bin:/Users/pyhorns/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true",
+    "scripts": {
+      "build": "webpack --config webpack.config.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
